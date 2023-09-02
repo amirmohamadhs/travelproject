@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+     
+}
+
+.container{
+    width: 100%;
+    padding: 30px 18%;
+}
+header .home_container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0%;
+     
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(23, 100, 131)
+}
+
+.banner_container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.row-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.row-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 25px 25px;
+
+
+}
+
+.item_twxt h4{
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.row-item:hover{
+    transform: translateY(-25px);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(218, 218, 218);
+}
+.row_text h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    
+
+}
+
+.container_items{
+    display: flex;
+    justify-content: space-between;
+}
+.container_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px 10px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.container_logo i{
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.container_text {
+    text-align: center;
+}
+
+.container_text p{
+font-size: 12px;
+color: black;
+}
+
+.container_item:hover{
+    box-shadow: 5px 10px 30px rgba(98, 98, 98, 0.457);
+    transform: translatey(-20px);
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+title h3{
+    font-size: 35px;
+}
+
+.package_items{
+    
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    
+
+}
+
+
+.img_box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    
+    
+}
+
+.img_box img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img_box h4{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: rgb(254, 254, 254);
+    padding: 5px 8px;
+    background-color: rgb(90, 91, 92);
+
+}
+
+.logo{
+    font-size: 58px;
+    color: rgb(252, 252, 252);
+}
+
+.banner-btn:hover{
+    color: rgb(255, 134, 134);
+    margin-bottom: 10px;
+    background-color: rgb(58, 58, 72);
+    border: 1px solid black;
+    padding: 4px 5px;
+    transition: none;
+}
+
+.banner-btn{
+    color: rgb(255, 134, 134);
+    margin-bottom: 10px;
+    background-color: rgb(58, 58, 72);
+    border: 1px solid black;
+    padding: 4px 5px;
+    transition: none;
+    border-radius: 5px;
+}
+
+.card_text_location h1{
+    font-size: 15px;
+}
+
